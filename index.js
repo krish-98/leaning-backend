@@ -64,6 +64,20 @@ const calculateMul = (num) => {
   return multiple
 }
 
+app.get("/handleSum", (req, res) => {
+  const counter = req.query.counter
+
+  const sumValue = calculateSum(counter)
+  const multipleValue = calculateMul(counter)
+
+  const answerObject = {
+    sum: sumValue,
+    multiple: multipleValue,
+  }
+
+  res.send(answerObject)
+})
+
 // Making POST Req
 app.post("/handleSum", (req, res) => {
   // Getting query params
@@ -113,5 +127,15 @@ app.listen(port, () => {
  * 1. Status code
  * 2. Body (In the body it can send Plain text, JSON or HTML File)
  * 3.
+ *
+ */
+
+/**
+ * We've seen 3 ways to send request to the server
+ * 1. via Browser
+ * 2. via Postman
+ * 3. via a nodeJS Process
+ *
+ *
  *
  */
