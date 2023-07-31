@@ -1,0 +1,11 @@
+20230731	13:57:03	d5f0b95d-d598-4c86-9707-28e162d8fa9f	GET	undefined	/
+20230731	13:57:03	507ed68b-ef35-4f2d-8e89-eb681829bef8	GET	undefined	/css/style.css
+20230731	15:16:18	7fdad27c-d1f9-4d32-877e-3ab9aace7bd6	GET	undefined	/
+20230731	15:16:26	f7affdf5-7b5e-4af0-b9c0-81c553035b8f	GET	undefined	/
+20230731	15:37:07	1c17a534-9a83-4ed2-a7f0-1c4a34ea5095	GET	undefined	/
+20230731	15:37:07	f2dc0be4-b2d9-4f4d-a2ab-cb82b4d9c477	GET	undefined	/css/style.css
+20230731	15:40:16	17ae7a1f-231a-440c-9062-c3d827a06593	GET	undefined	/
+20230731	15:40:16	e674c703-212f-43d8-af74-e492e3220a42	GET	undefined	/css/style.css
+20230731	15:40:57	65a6ea7e-1389-4be3-a35f-49d5fd9dbca9	GET	undefined	/
+20230731	15:41:04	6dd9c8c7-b133-41e0-95a9-d692b4ffff83	GET	undefined	/
+20230731	15:41:04	4a85f6a1-3ec1-4804-9209-637cc80e3ca2	GET	undefined	/css/style.css
