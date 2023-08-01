@@ -1,1 +1,9 @@
 20230731	15:40:57	0ff6bb05-d33d-4a50-9c78-97dd24d7da4e	Error: Not allowed by CORS
+20230731	16:16:20	357f7026-3146-4d4e-a2dd-f56e3cf8eda7	Error: ENOENT: no such file or directory, stat 'D:\MK Files\Web Dev\Harkirat Singh - Live Full Stack Open Source Cohort\Assignments\leaning-backend\node-js\routes\index.html'
+20230731	16:16:24	0942d8bd-dead-4b8f-a2eb-72015abf36c7	Error: ENOENT: no such file or directory, stat 'D:\MK Files\Web Dev\Harkirat Singh - Live Full Stack Open Source Cohort\Assignments\leaning-backend\node-js\routes\index.html'
+20230731	16:16:28	02565487-7f8d-4367-b9d7-e59612c44d40	Error: ENOENT: no such file or directory, stat 'D:\MK Files\Web Dev\Harkirat Singh - Live Full Stack Open Source Cohort\Assignments\leaning-backend\node-js\routes\index.html'
+20230731	16:17:13	14ffae71-928e-4ab8-89a6-0d9bd56025d0	Error: ENOENT: no such file or directory, stat 'D:\MK Files\Web Dev\Harkirat Singh - Live Full Stack Open Source Cohort\Assignments\leaning-backend\node-js\routes\routes\subdir\index.html'
+20230731	16:18:32	62783e83-622b-4c2b-9c4b-edd2cb29e6b5	Error: ENOENT: no such file or directory, stat 'D:\MK Files\Web Dev\Harkirat Singh - Live Full Stack Open Source Cohort\Assignments\leaning-backend\node-js\views\test.html'
+20230801	08:59:57	362e4ac0-4182-48d3-8ea1-1f1657821c55	TypeError: res.json(...).put is not a function
+20230801	09:00:57	7373d951-3ea0-4d58-a138-1fca9ebff9cf	TypeError: res.json(...).put is not a function
+20230801	09:01:13	d275f17f-51e6-4dd2-867b-ab86a9b3b33b	TypeError: res.json(...).put is not a function
