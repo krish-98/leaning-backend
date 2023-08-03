@@ -8,3 +8,8 @@
 20230801	09:00:57	7373d951-3ea0-4d58-a138-1fca9ebff9cf	TypeError: res.json(...).put is not a function
 20230801	09:01:13	d275f17f-51e6-4dd2-867b-ab86a9b3b33b	TypeError: res.json(...).put is not a function
 20230802	09:49:38	5c2e1c8e-50b8-4853-8896-3ca1135ce58b	SyntaxError: Unexpected end of JSON input
+20230803	20:05:49	f59ecad4-36ab-4414-bfd5-8123a572d077	ReferenceError: sendStatus is not defined
+20230803	20:05:53	b5c2e868-5e68-4583-9c24-3697994d0e74	ReferenceError: sendStatus is not defined
+20230803	20:07:30	8401b7ee-91f0-4b42-a68c-a7ff037a35ee	ReferenceError: sendStatus is not defined
+20230803	20:07:31	6a7f1319-4082-400d-9b88-1fdba5384e18	ReferenceError: sendStatus is not defined
+20230803	20:07:32	4c7239b5-61fa-4550-8488-9f28c0884988	ReferenceError: sendStatus is not defined
