@@ -5,12 +5,19 @@ const corsOptions = require("./config/corsOptions")
 const path = require("path")
 const { logger } = require("./middleware/logEvents")
 const errorHandler = require("./middleware/errorHandler")
+const verifyJWT = require("./middleware/verfiyJWT")
+const cookieParser = require("cookie-parser")
+const credentials = require("./middleware/credentials")
 
 const PORT = process.env.PORT || 3000
 
 // Middlewares
 // custom middlware
 app.use(logger)
+
+// Handle options creditionals check - before CORS!
+// and fetch cookies credentials requirement
+app.use(credentials)
 
 // Cross Origin Resource Sharing
 app.use(cors(corsOptions))
@@ -20,6 +27,9 @@ app.use(express.urlencoded({ extended: false }))
 // built-in middlware for json
 app.use(express.json())
 
+// middleware for cookie parser
+app.use(cookieParser())
+
 // serve static files
 app.use("/", express.static(path.join(__dirname, "public")))
 // app.use("/subdir", express.static(path.join(__dirname, "public")))
@@ -28,6 +38,11 @@ app.use("/", express.static(path.join(__dirname, "public")))
 app.use("/", require("./routes/root"))
 app.use("/register", require("./routes/register"))
 app.use("/auth", require("./routes/auth"))
+app.use("/refresh", require("./routes/refresh"))
+app.use("/logout", require("./routes/logout"))
+
+// verifyJWT middleware applies to employees route, because it's like a waterfall everything after verifyJWT line, routes come after it uses the verifyJWT middleware for their routes
+app.use(verifyJWT)
 app.use("/employees", require("./routes/api/employees"))
 
 //404 alternate way
